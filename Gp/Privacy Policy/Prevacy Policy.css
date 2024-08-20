@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'lucida-calligraphy';
+	src: url(/Gp/fonts/lucida-calligraphy.ttf) format(‘truetype’)
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    background-color: rgb(175, 175, 175);
+}
+
+.lp{
+    margin-top: 50px;
+    text-align: center;
+    color: #FF8C00;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 0 7px 0 black, 0 8px 0 black, 0 9px 0 black, 0 10px 0 black, 0 11px 0 black, 0 12px 0 black, 0 20px 30px rgba(0, 0, 0, 0.7); 
+    font-size: 70px;
+    font-family: Lucida Calligraphy;
+}
+
+.privacy{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+
+p {
+    margin: 0px 100px 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: lucida-calligraphy;
+    font-size: 20px;
+}
+
+.info{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+h3{
+    margin: 0px 100px 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: lucida-calligraphy;
+    font-size: 30px;
+}
+
+.action-button {
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #FF8C00;
+    border-bottom: 5px solid #000000;
+    text-shadow: 0px -2px #FF8C00;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+  
+.action-button:active {
+      transform: translate(0px,5px);
+      -webkit-transform: translate(0px,5px);
+      border-bottom: 1px solid;
+}
+
+  ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF8C00;
+}

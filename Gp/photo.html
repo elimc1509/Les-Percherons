@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="photo.css" rel="stylesheet">
+    <title>Photo</title>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <img class="lp" src="assets/img/logo.jpg">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Notre Histoire</a></li>
+                <li><a href="#skills" class="menu-btn">Galerie</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="video-container">
+
+        <div class="video">
+            <img src="gallery/photo1.png" alt="">
+        </div>
+
+        <div class="video">
+            <img src="gallery/photo2.png" alt="">
+        </div>
+
+        <div class="video">
+            <img src="gallery/photo3.png" alt="">
+        </div>
+
+        <div class="video">
+            <img src="gallery/photo4.png" alt="">
+        </div>
+
+        <div class="video">
+            <img src="gallery/gallery1.jpg" alt="">
+        </div>
+
+        <div class="video">
+            <img src="gallery/photo5.png" alt="">
+        </div>
+
+        <div class="video">
+            <img src="gallery/photo6.png" alt="">
+        </div>
+
+        <div class="video">
+            <img src="gallery/gallery1.jpg" alt="">
+        </div>
+
+        <div class="video">
+            <img src="gallery/gallery1.jpg" alt="">
+        </div>
+
+    </div>
+
+    </div>
+
+
+    </section>
+
+
+<script>
+
+var video = document.querySelectorAll('img')
+
+video.forEach(play => play.addEventListener('click', () =>{
+
+    play.classList.toggle('active');
+
+}));
+
+
+</script>
+</body>
+</html>
